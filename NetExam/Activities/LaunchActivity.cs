@@ -12,7 +12,7 @@ using Android.Views;
 using Android.Widget;
 using System.Threading;
 using Android.Content.PM;
-
+//Testing
 namespace NetExam
 {
 	[Activity (Label = "NetExam", Theme = "@style/Theme.Splash", NoHistory=true, ScreenOrientation = ScreenOrientation.Portrait, MainLauncher=true)]			

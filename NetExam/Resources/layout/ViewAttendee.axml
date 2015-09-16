@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F2F6"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/getSection">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="239.9dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/lblHeader"
+            android:text="Attendee Status"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#5C5672"
+            android:autoLink="web" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:background="@drawable/border"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:id="@+id/getSection"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35.6dp"
+            android:gravity="left"
+            android:id="@+id/linearlayout2">
+            <TextView
+                android:text="Name:"
+                android:gravity="left"
+                android:textSize="16dp"
+                android:textColor="#5A6470"
+                android:layout_height="wrap_content"
+                android:layout_width="58.2dp"
+                android:id="@+id/lblName"
+                android:layout_marginLeft="48dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33.3dp"
+                android:text="Name To Go Here"
+                android:textColor="#5A6470"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:id="@+id/txtName"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="14.1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/linearlayout3">
+            <TextView
+                android:text="Email:"
+                android:gravity="left"
+                android:textSize="16dp"
+                android:textColor="#5A6470"
+                android:layout_height="wrap_content"
+                android:layout_width="58.2dp"
+                android:id="@+id/lblEmail"
+                android:layout_marginLeft="48dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33.3dp"
+                android:text="Email To Go Here"
+                android:textColor="#5A6470"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:id="@+id/txtEmail"
+                android:layout_marginRight="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/getSection">
+            <TextView
+                android:text="Status:"
+                android:gravity="left"
+                android:textSize="16dp"
+                android:textColor="#5A6470"
+                android:layout_height="21.1dp"
+                android:layout_width="58.2dp"
+                android:id="@+id/lblStatus"
+                android:layout_marginLeft="48dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33.3dp"
+                android:text="Status To Go Here"
+                android:textColor="#5A6470"
+                android:textStyle="bold"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:id="@+id/txtLblStatus"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/linearlayout4">
+            <TextView
+                android:text="Score:"
+                android:textSize="16dp"
+                android:layout_width="50.6dp"
+                android:layout_height="wrap_content"
+                android:textColor="#5A6470"
+                android:id="@+id/lblScore"
+                android:layout_marginLeft="50dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34.8dp"
+                android:textColor="#5A6470"
+                android:text="Score To Go Here"
+                android:textStyle="bold"
+                android:id="@+id/txtScore"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="02dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="25.6dp"
+            android:gravity="left"
+            android:id="@+id/linearlayout5">
+            <TextView
+                android:text="Comments:"
+                android:layout_width="89.5dp"
+                android:textSize="16dp"
+                android:layout_height="42.6dp"
+                android:textColor="#5A6470"
+                android:id="@+id/lblDate"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:layout_width="210.7dp"
+                android:textColor="#5A6470"
+                android:text="Comments To Go Here"
+                android:textStyle="bold"
+                android:layout_height="22.1dp"
+                android:id="@+id/txtDate"
+                android:layout_marginLeft="05dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

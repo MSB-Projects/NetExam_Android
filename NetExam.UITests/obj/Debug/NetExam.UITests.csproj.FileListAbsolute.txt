@@ -1,0 +1,16 @@
+D:\Xamarin\MediaDefined\NetExam\NetExam.UITests\bin\Debug\NetExam.UITests.dll
+D:\Xamarin\MediaDefined\NetExam\NetExam.UITests\bin\Debug\NetExam.UITests.pdb
+D:\Xamarin\MediaDefined\NetExam\NetExam.UITests\bin\Debug\nunit.framework.dll
+D:\Xamarin\MediaDefined\NetExam\NetExam.UITests\bin\Debug\Xamarin.UITest.dll
+D:\Xamarin\MediaDefined\NetExam\NetExam.UITests\bin\Debug\nunit.framework.xml
+D:\Xamarin\MediaDefined\NetExam\NetExam.UITests\bin\Debug\Xamarin.UITest.xml
+D:\Xamarin\MediaDefined\NetExam\NetExam.UITests\obj\Debug\NetExam.UITests.dll
+D:\Xamarin\MediaDefined\NetExam\NetExam.UITests\obj\Debug\NetExam.UITests.pdb
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam.UITests\bin\Debug\NetExam.UITests.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam.UITests\bin\Debug\NetExam.UITests.pdb
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam.UITests\bin\Debug\nunit.framework.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam.UITests\bin\Debug\Xamarin.UITest.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam.UITests\bin\Debug\nunit.framework.xml
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam.UITests\bin\Debug\Xamarin.UITest.xml
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam.UITests\obj\Debug\NetExam.UITests.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam.UITests\obj\Debug\NetExam.UITests.pdb

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splashscreenBg">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutcontent"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/loginhelp_padding">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutmaincontent"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/lblLogin"
+                android:text="@string/loginhelp_text"
+                android:textSize="@dimen/loginhelp_text_size"
+                android:textColor="@android:color/white"
+                android:autoLink="web"
+                android:typeface="serif"
+                android:textDirection="locale" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/linearLayoutmaincontent">
+            <Button
+                android:id="@+id/btnLaunch"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/loginhelp_button_margintop"
+                android:layout_weight="@integer/loginhelp_layout_weight"
+                android:text="@string/loginhelp_button_text"
+                android:textColor="@color/loginhelp_button_text_color"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:background="@drawable/whitebuttonstyle"
+                android:textSize="@dimen/loginhelp_button_text_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

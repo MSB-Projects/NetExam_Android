@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splashscreenbg</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:icon">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+  </style>
+  <style name="MyTheme" parent="@android:Theme.Holo">
+      <item name="android:windowFullscreen">true</item> 
+      <item name="android:windowContentOverlay">@null</item>
+   </style>
+</resources>
+

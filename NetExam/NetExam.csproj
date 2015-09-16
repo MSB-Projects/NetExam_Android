@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{A2CC7874-2F31-4623-8178-E66F7B069003}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NetExam</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>NetExam</AssemblyName>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.22.2.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Activities\Login\LoginActivity.cs" />
+    <Compile Include="Activities\LeftMenuFragment.cs" />
+    <Compile Include="Activities\Login\LoginHelpActivity.cs" />
+    <Compile Include="Activities\Event\MyEvent_ItemAdapter.cs" />
+    <Compile Include="Activities\Event\MyEventsFragment.cs" />
+    <Compile Include="Activities\Event\CreateEventFragment.cs" />
+    <Compile Include="Activities\Event\ViewEventFragment.cs" />
+    <Compile Include="Activities\Attendee\MyAttendee_ItemAdapter.cs" />
+    <Compile Include="Activities\Attendee\MyAttendeesFragment.cs" />
+    <Compile Include="Activities\Attendee\CreateAttendeeFragment.cs" />
+    <Compile Include="Activities\Attendee\ViewAttendeeFragment.cs" />
+    <Compile Include="Activities\LaunchActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\drawable\signoutbutton.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\arrowLight.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\arrowWhite.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\backButton.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\boxDark.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\boxGrey.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\boxLight.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\button1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\button2dark.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\buttonLight.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\dateICon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\downArrow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\durationICon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\eventIcon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\loginButton.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logogLarge.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\timeicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\button1.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\button2dark.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\timeicon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\AppIcon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\arrowDark.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\arrowLight.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\arrowWhite.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\backButton.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\boxDark.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\boxGrey.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\boxLight.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\button1.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\button2dark.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\buttonLight.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\dateICon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\downArrow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\durationICon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\eventIcon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\loginButton.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\logogLarge.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\mainWhitBoxShadow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Menu.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\passwordCharacter.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\passwordICon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\QRscan.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\sideArrow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\SideCloseButton.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\sidecreateEventICon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\sideEvaluationIcon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\sideHomeicon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\splashscreenBg.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\studentIcon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\timeicon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\topbarLogo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\topbarShadow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\userNameIocn.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\AppIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\arrowDark.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\arrowLight.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\arrowWhite.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\backButton.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\boxDark.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\boxGrey.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\boxLight.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\button1.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\button2dark.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\buttonLight.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\dateICon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\downArrow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\durationICon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\eventIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\loginButton.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\logogLarge.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\mainWhitBoxShadow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Menu.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\passwordCharacter.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\passwordICon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\QRscan.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\sideArrow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\SideCloseButton.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\sidecreateEventICon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\sideEvaluationIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\sideHomeicon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\splashscreenBg.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\studentIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\timeicon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\topbarLogo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\topbarShadow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\userNameIocn.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\arrowDark.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\arrowLight.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\arrowWhite.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\backButton.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\boxDark.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\boxGrey.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\boxLight.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\button1.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\button2dark.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\buttonLight.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\dateICon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\downArrow.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\durationICon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\eventIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\loginButton.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\logogLarge.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\mainWhitBoxShadow.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Menu.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\passwordCharacter.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\passwordICon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\QRscan.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sideArrow.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\SideCloseButton.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sidecreateEventICon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sideEvaluationIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sideHomeicon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\splashscreenBg.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\studentIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\timeicon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\topbarLogo.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\topbarShadow.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\userNameIocn.png" />
+    <AndroidResource Include="Resources\layout\Login.axml" />
+    <AndroidResource Include="Resources\drawable\boxgreystyle.xml" />
+    <AndroidResource Include="Resources\drawable\buttonsyle.xml" />
+    <AndroidResource Include="Resources\drawable\canceleventbuttonstyle.xml" />
+    <AndroidResource Include="Resources\drawable\createeventbuttonstyle.xml" />
+    <AndroidResource Include="Resources\drawable\edittextstyle.xml" />
+    <AndroidResource Include="Resources\drawable\fontbold.xml" />
+    <AndroidResource Include="Resources\drawable\topbarlogo.xml" />
+    <AndroidResource Include="Resources\drawable\whitebuttonstyle.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\appicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\mainwhitboxshadow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\menu.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\passwordcharacter.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\passwordicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\qrscan.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sidearrow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sideclosebutton.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sidecreateeventicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sideevaluationicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sidehomeicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splashscreenbg.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\studenticon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\topbarlogo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\topbarshadow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\usernameicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\appicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\arrowdark.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\arrowlight.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\arrowwhite.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\backbutton.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\boxdark.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\boxgrey.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\boxlight.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\buttonlight.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\dateicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\downarrow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\durationicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\eventicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\loginbutton.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\logoglarge.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\mainwhitboxshadow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\menu.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\passwordcharacter.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\passwordicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\qrscan.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\sidearrow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\sideclosebutton.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\sidecreateeventicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\sideevaluationicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\sidehomeicon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\splashscreenbg.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\studenticon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\topbarlogo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\topbarshadow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\usernameicon.png" />
+    <AndroidResource Include="Resources\values\dimen.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\integers.xml" />
+    <AndroidResource Include="Resources\layout\LoginHelp.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\arrowdark.png" />
+    <AndroidResource Include="Resources\layout\menu_drawer.axml" />
+    <AndroidResource Include="Resources\layout\MyEvents.axml" />
+    <AndroidResource Include="Resources\layout\CreateEvent.axml" />
+    <AndroidResource Include="Resources\layout\ViewEvent.axml" />
+    <AndroidResource Include="Resources\layout\myattendee_item.axml" />
+    <AndroidResource Include="Resources\layout\myevent_item.axml" />
+    <AndroidResource Include="Resources\layout\MyAttendees.axml" />
+    <AndroidResource Include="Resources\layout\ViewAttendee.axml" />
+    <AndroidResource Include="Resources\layout\CreateAttendee.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\topbar.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\topbar.png" />
+    <AndroidResource Include="Resources\values\Style.xml" />
+    <AndroidResource Include="Resources\anim\slide_in_left.xml" />
+    <AndroidResource Include="Resources\anim\slide_out_right.xml" />
+    <AndroidResource Include="Resources\drawable\Border.xml" />
+    <AndroidResource Include="Resources\drawable\DrwablePadding.xml" />
+    <AndroidResource Include="Resources\drawable\whitebackgroundcorner.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Activities\" />
+    <Folder Include="Activities\Login\" />
+    <Folder Include="Activities\Event\" />
+    <Folder Include="Activities\Attendee\" />
+    <Folder Include="Resources\anim\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="xamandroidsupportv4-18">
+      <Version>22.2.0.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>

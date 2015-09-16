@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <integer name="user_maxlength">50</integer>
+  <integer name="pass_maxlength">25</integer>
+    <integer name="lines">1</integer>
+    <integer name="max_lines">1</integer>
+    <integer name="loginhelp_layout_weight">1</integer>
+</resources>
+

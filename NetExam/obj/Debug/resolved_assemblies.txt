@@ -1,0 +1,7 @@
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam\obj\Debug\assemblies\NetExam.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam\obj\Debug\assemblies\Mono.Android.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam\obj\Debug\assemblies\mscorlib.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam\obj\Debug\assemblies\System.Core.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam\obj\Debug\assemblies\System.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam\obj\Debug\assemblies\System.Xml.dll
+D:\xamarin\MediaDefined\Implementation\SourceCode\NetExam\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
